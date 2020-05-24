@@ -1,19 +1,19 @@
-name: Deploy IPFS$
+name: Deploy IPFS
 # This workflow is triggered on pushes to the repository.$
-on: [push]$
-jobs:$
-  build:$
-    name: Deploy$
+on: [push]
+jobs:
+  build:
+    name: Deploy
     # This job runs on Linux$
-    runs-on: ubuntu-latest$
+    runs-on: ubuntu-latest
     steps:$
       - name: build$
-        run: ./parse-markdown.js $
-      - name: IPFS Pinata deploy GitHub action$
-        uses: anantaramdas/ipfs-pinata-deploy-action@v1.5.2$
+        run: ./parse-markdown.js 
+      - name: IPFS Pinata deploy GitHub action
+        uses: anantaramdas/ipfs-pinata-deploy-action@v1.5.2
         with:$
-          pin-name: 'My personal site'$
-          path: './index.html'$
-          pinata-api-key: ${{ secrets.pinataKey }}$
-          pinata-secret-api-key: ${{secrets.pinataSecret }}$
-          verbose: true$
+          pin-name: 'My personal site'
+          path: './index.html'
+          pinata-api-key: ${{ secrets.pinataKey }}
+          pinata-secret-api-key: ${{secrets.pinataSecret }}
+          verbose: true
