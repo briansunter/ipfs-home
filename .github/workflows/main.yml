@@ -15,7 +15,7 @@ jobs:
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.5.2
         with:
           pin-name: 'My personal site'
-          path: './index.html'
+          path: './build'
           pinata-api-key: ${{ secrets.pinataKey }}
           pinata-secret-api-key: ${{secrets.pinataSecret }}
           verbose: true

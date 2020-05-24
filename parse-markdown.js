@@ -215,4 +215,4 @@ var htmlTemplate = fs.readFileSync('index.html.tmpl', 'utf-8');
 var inlineCSS = fs.readFileSync('styles.css', 'utf-8');
 htmlTemplate = htmlTemplate.replace(/{{content}}/g, contentHtml);
 htmlTemplate = htmlTemplate.replace(/{{style}}/g, inlineCSS);
-fs.writeFileSync('index.html', htmlTemplate);
+fs.writeFileSync('./build/index.html', htmlTemplate);
