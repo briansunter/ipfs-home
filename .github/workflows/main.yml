@@ -6,12 +6,12 @@ jobs:
     name: Deploy
     # This job runs on Linux$
     runs-on: ubuntu-latest
-    steps:$
+    steps:
       - name: build$
         run: ./parse-markdown.js 
       - name: IPFS Pinata deploy GitHub action
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.5.2
-        with:$
+        with:
           pin-name: 'My personal site'
           path: './index.html'
           pinata-api-key: ${{ secrets.pinataKey }}
