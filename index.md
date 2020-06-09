@@ -1,9 +1,7 @@
 #Brian Sunter
 
-This is a simple single file landing page.
-
 ## About
-I'm a software engineer in San Francisco interested in fullstack development and devops.
+I'm a software engineer in San Francisco interested in fullstack development and evps.
 
 
 ## Interests
@@ -13,14 +11,16 @@ I'm a software engineer in San Francisco interested in fullstack development and
 * Clojure
 * Javascript
 * Python
-* Devops
+* Devps
 * AWS
 * Photography
 * Travel
 
 ## Projects
-
-* [Personal Site](https://github.com/briansunter/site) This site, which is a static site made with eleventy.
+* [IPFS Home](https://github.com/briansunter/ipfs-home)
+This site hosted on IPFS
+* [Personal Site](https://github.com/briansunter/site) 
+My normal home page, which is a static site made with eleventy.
 * [My dotfiles](https://github.com/briansunter/dotfiles) Scripts and configuration to boostrap my macos computers.
 * [Terraform Static Site](https://github.com/briansunter/terraform-aws-static-site) Cloudfront + CodePipeline deploy on commit static site
 * [3D-me](https://github.com/briansunter/3D-me) 3D Selfie made with three.js
@@ -30,4 +30,3 @@ I'm a software engineer in San Francisco interested in fullstack development and
 * [Kubernetes Devbox](https://github.com/briansunter/kubernetes-devbox) Develop in VS Code in a browser served by Kubernetes
 * [Bander](https://github.com/briansunter/bander) Multiple Choice Adventure RPG game in React
 * [Haskell Supermemo](https://github.com/briansunter/haskell-supermemo) An implementation of the supermemo 2 flash card spaced repetition algorithm.
-* [Fuck Yes Money](http://fuckyesmoney.briansunter.com/) Animated video of money falling
