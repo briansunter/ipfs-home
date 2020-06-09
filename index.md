@@ -1,8 +1,7 @@
 #Brian Sunter
 
 ## About
-I'm a software engineer in San Francisco interested in fullstack development and evps.
-
+I'm a software engineer in San Francisco interested in fullstack development and DevOps.
 
 ## Interests
 
@@ -11,16 +10,14 @@ I'm a software engineer in San Francisco interested in fullstack development and
 * Clojure
 * Javascript
 * Python
-* Devps
+* DevOps
 * AWS
 * Photography
 * Travel
 
 ## Projects
-* [IPFS Home](https://github.com/briansunter/ipfs-home)
-This site hosted on IPFS
-* [Personal Site](https://github.com/briansunter/site) 
-My normal home page, which is a static site made with eleventy.
+* [IPFS Home](https://github.com/briansunter/ipfs-home) This site hosted on IPFS
+* [Personal Site](https://github.com/briansunter/site) My normal home page, which is a static site made with eleventy.
 * [My dotfiles](https://github.com/briansunter/dotfiles) Scripts and configuration to boostrap my macos computers.
 * [Terraform Static Site](https://github.com/briansunter/terraform-aws-static-site) Cloudfront + CodePipeline deploy on commit static site
 * [3D-me](https://github.com/briansunter/3D-me) 3D Selfie made with three.js
